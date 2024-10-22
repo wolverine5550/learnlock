@@ -29,9 +29,22 @@
 		053D82AF2CC7DE780030E5D4 /* LearnLockUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LearnLockUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		058C04992CC802C600C1D36F /* Exceptions for "LearnLock" folder in "LearnLock" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 053D828F2CC7DE740030E5D4 /* LearnLock */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		053D82922CC7DE740030E5D4 /* LearnLock */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				058C04992CC802C600C1D36F /* Exceptions for "LearnLock" folder in "LearnLock" target */,
+			);
 			path = LearnLock;
 			sourceTree = "<group>";
 		};
@@ -398,7 +411,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"LearnLock/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "$(SRCROOT)/LearnLock/Info.plist\n";
+				INFOPLIST_FILE = /Users/adampascarella/Desktop/Programming/learnlock/LearnLock/LearnLock/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -428,7 +441,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"LearnLock/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "$(SRCROOT)/LearnLock/Info.plist\n";
+				INFOPLIST_FILE = /Users/adampascarella/Desktop/Programming/learnlock/LearnLock/LearnLock/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;

@@ -9,6 +9,7 @@
 import SwiftUI
 
 struct ContentView: View {
+    @EnvironmentObject var dataController: DataController
     @State private var selectedBook = ""
     @State private var optimizationGoal = ""
     @State private var showingActionPlan = false
